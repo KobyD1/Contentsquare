@@ -1,0 +1,32 @@
+<suite name="Sanity">
+    <test name="Sanity">
+        <classes>
+
+            <class name="tests.GetTest"></class>
+                <methods>
+                    <include name="getExistMovie"/>
+                </methods>
+            <class name="tests.PutTest"></class>
+                <methods>
+                    <include name="updateMovie"/>
+                </methods>
+            <class name="tests.PostTest"></class>
+                <methods>
+                    <include name="createMovie"/>
+                </methods>
+            <class name="tests.DeleteTest"></class>
+                <methods>
+                    <include name="deleteExistId"/>
+                </methods>
+            <class name="tests.SecurityTest"></class>
+                <methods>
+                    <include name="resetEnvByNotAuth"/>
+                </methods>
+
+        </classes>
+
+    </test>
+
+
+</suite>
+

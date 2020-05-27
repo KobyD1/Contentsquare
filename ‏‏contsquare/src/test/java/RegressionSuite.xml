@@ -1,0 +1,17 @@
+<suite name="Regression">
+    <test name="Regression">
+        <classes>
+
+            <class name="tests.GetTest"></class>
+            <class name="tests.PutTest"></class>
+            <class name="tests.PostTest"></class>
+            <class name="tests.DeleteTest"></class>
+            <class name="tests.SecurityTest"></class>
+
+        </classes>
+
+    </test>
+
+
+</suite>
+
